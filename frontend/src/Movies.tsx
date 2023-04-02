@@ -11,6 +11,7 @@ function Movies(props: any) {
         <React.Fragment>
             <div className="container ">
                 <div className="row">
+                    <h1> My Movie Collection:</h1>
                     {/* Define Head */}
                     <table className="table table-bordered table-striped">
                         <thead className="font-weight-bold">

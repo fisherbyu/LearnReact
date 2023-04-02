@@ -7,8 +7,10 @@ function Home(props: any) {
         <React.Fragment>
             <div className="container">
                 <div className="row">
-                    <h1>Welcome to My Site!</h1>
-					<img src={joel} alt="Joel Hilton" />
+                    <div className="col">
+                        <h1>Welcome to My Site!</h1>
+                        <img src={joel} alt="Joel Hilton" style={{"width": "300px"}}/>
+                    </div>
                 </div>
             </div>
         </React.Fragment>
