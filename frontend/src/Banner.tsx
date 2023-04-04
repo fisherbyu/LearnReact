@@ -8,9 +8,9 @@ function NavBar() {
                 <div className="row">
                 <nav className="navbar col-6">
                     <h3>Joel Hilton Super Site</h3>
-                    <a className="" href="home">Home</a> |
-                    <a href="movies"> Movies</a> | 
-                    <a href="podcasts"> Podcasts</a>
+                    <a className="btn" href="home">Home</a> |
+                    <a className="btn" href="movies"> Movies</a> | 
+                    <a className="btn" href="podcasts"> Podcasts</a>
                 </nav>
                 </div>
             </div>
